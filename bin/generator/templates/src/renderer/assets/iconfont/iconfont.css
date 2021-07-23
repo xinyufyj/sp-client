@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "client_iconfont"; /* Project id 2160878 */
+  src: url('iconfont.woff?t=1626169262137') format('woff');
+}
+
+.client_iconfont {
+  font-family: "client_iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-maximize-restore:before {
+  content: "\e649";
+}
+
+.icon-minimize:before {
+  content: "\e635";
+}
+
+.icon-maximize:before {
+  content: "\e65f";
+}
+
+.icon-close:before {
+  content: "\e600";
+}
+

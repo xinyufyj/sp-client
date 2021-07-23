@@ -1,0 +1,21 @@
+{
+  "name": "client-cli",
+  "version": "1.0.0",
+  "description": "A cli build client for suanpan-web",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sp-client": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.0.1"
+  }
+}
