@@ -34,3 +34,7 @@ sp-client 需要如下环境：
 
 打包 electron, 可以执行
 > npm run electron:build
+
+## 4. 说明
+1. 目前该项目还处于开发阶段，后期会做很多改动
+2. 要想正常启动客户端，还需对 suanpan-web 项目稍加改动，请参考： 
