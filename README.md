@@ -29,6 +29,7 @@ sp-client 需要如下环境：
 
 在 suanpan-web 中更新了代码后，可以执行
 > sp-client update --build
+
 同步更新到 electron 中
 
 打包 electron, 可以执行
