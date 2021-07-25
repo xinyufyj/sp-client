@@ -92,6 +92,7 @@ async function create() {
     injectElectronVersion()
     await createVueElectronBuilder()
     await generator(projectName)
+    log.success('create')
   } catch (error) {
     removeClientDir()
     log.error('create client failed')
